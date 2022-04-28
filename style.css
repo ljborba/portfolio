@@ -4,6 +4,9 @@
 
 :root {
     --font-padrao: 'Roboto', sans-serif;
+    --color-profile: #952337;
+    --color-info-primary: #00B1FF;
+    --color-info-secundary: #256382;
 }
 
 * {
@@ -19,6 +22,24 @@ body {
 
 strong {
     font-weight: bold;
+    font-size: 1.3em;
 }
 
+.profile > p > strong {
+    color: var(--color-profile);
+}
 
+.info > p > .system {
+    color: var(--color-info-primary);
+}
+
+.info > p > strong {
+    color: var(--color-info-secundary);
+}
+
+a {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: black;
+    text-decoration: none;
+}
