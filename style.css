@@ -24,6 +24,11 @@ body {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    margin: 2em;
+}
+
+.item {
+    margin: 1em;
 }
 
 .order0 {
@@ -41,6 +46,10 @@ strong {
 
 .profile > p > strong {
     color: var(--color-profile);
+}
+
+.info > p {
+    text-align: center;
 }
 
 .info > p > .system {
