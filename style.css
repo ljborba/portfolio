@@ -26,6 +26,14 @@ body {
     align-items: center;
 }
 
+.order0 {
+    order: 1;
+}
+
+.order1 {
+    order: 0;
+}
+
 strong {
     font-weight: bold;
     font-size: 1.3em;
