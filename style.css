@@ -18,12 +18,19 @@ body {
     max-width: 70%;
     margin: auto;
     font-family: var(--font-padrao);
+    font-size: 1.1em;
 }
 
 .container {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    margin: 2em;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
     margin: 2em;
 }
 
@@ -60,9 +67,29 @@ strong {
     color: var(--color-info-secundary);
 }
 
+.border {
+    border-top: 2px dashed black;
+}
+
+.img-project {
+    width: 55%;
+}
+
+.project {
+    padding-top: 1em;
+}
+
 a {
     font-weight: bold;
     font-size: 1.3em;
     color: black;
     text-decoration: none;
+}
+
+.img-footer {
+    width: 32px;
+}
+
+.items-footer {
+    margin: 0.5em;
 }
