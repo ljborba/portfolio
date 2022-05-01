@@ -93,3 +93,7 @@ a {
 .items-footer {
     margin: 0.5em;
 }
+
+#linkGit:hover {
+    color: #00B1FF;
+}
