@@ -86,14 +86,11 @@ a {
     text-decoration: none;
 }
 
-.img-footer {
-    width: 32px;
-}
-
 .items-footer {
+    width: 32px;
     margin: 0.5em;
 }
 
 #linkGit:hover {
-    color: #00B1FF;
+    color:  var(--color-info-primary);
 }
