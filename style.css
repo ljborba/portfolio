@@ -122,3 +122,10 @@ a {
         margin: auto;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .profile > p {
+        position: relative;
+        right: 8%;
+    }
+}
