@@ -188,6 +188,10 @@ a {
     color:  var(--color-info-primary);
 }
 
+footer > .item > p {
+    text-indent: 2em;
+}
+
 @media screen and (max-width: 767px) {
     body {
         max-width: 100%;
