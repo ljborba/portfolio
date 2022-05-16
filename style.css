@@ -223,6 +223,10 @@ footer > .item > p {
 @media screen and (min-width: 1440px) {
     .profile > p {
         position: relative;
-        right: 8%;
+        right: 25%;
+    }
+    .profile > img {
+        position: relative;
+        right: 18%;
     }
 }
