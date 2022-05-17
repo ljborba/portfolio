@@ -7,6 +7,7 @@
     --color-profile: #952337;
     --color-info-primary: #00B1FF;
     --color-info-secundary: #256382;
+    --color-footer-primary: #FFB900;
 }
 
 * {
@@ -54,6 +55,10 @@ strong {
 
 .profile > p > strong {
     color: var(--color-profile);
+}
+
+.footer-strong {
+    color: var(--color-footer-primary);
 }
 
 .info , .developer > p {
