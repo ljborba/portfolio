@@ -60,6 +60,12 @@ strong {
     color: var(--color-profile);
 }
 
+#animation-img {
+   animation-name: move;
+   animation-duration: 3s;
+   animation-fill-mode: forwards;
+}
+
 .footer-strong {
     color: var(--color-footer-primary);
 }
@@ -183,6 +189,11 @@ strong {
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;
+  }
+
+  @keyframes move {
+      0% {right: 0px;}
+      100% {right: 227px;}
   }
   
   @keyframes fade {
