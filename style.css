@@ -209,14 +209,14 @@ a {
 }
 
 .items-footer {
-    width: 32px;
+    width: 2rem;
     margin: 0.5em;
 
     transition: width 500ms ease-out;
 }
 
 .items-footer:hover {
-    width: 64px;
+    width: 2.5rem;
 }
 
 #linkGit:hover {
